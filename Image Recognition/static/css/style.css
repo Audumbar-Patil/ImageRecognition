@@ -1,0 +1,36 @@
+/* Custom styles to complement Bootstrap dark theme */
+.card {
+    border-color: var(--bs-gray-700);
+}
+
+.preview-container {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+#previewImage {
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.list-group-item {
+    background-color: var(--bs-gray-800);
+    border-color: var(--bs-gray-700);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--bs-gray-900) !important;
+    border-top: 1px solid var(--bs-gray-700);
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+/* Loading spinner styles */
+.spinner-border {
+    margin-right: 0.5rem;
+}
